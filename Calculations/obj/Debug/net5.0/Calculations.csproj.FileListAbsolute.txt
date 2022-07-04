@@ -1,0 +1,16 @@
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\bin\Debug\net5.0\Calculations.exe
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\bin\Debug\net5.0\Calculations.deps.json
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\bin\Debug\net5.0\Calculations.runtimeconfig.json
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\bin\Debug\net5.0\Calculations.runtimeconfig.dev.json
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\bin\Debug\net5.0\Calculations.dll
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\bin\Debug\net5.0\Calculations.pdb
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\obj\Debug\net5.0\Calculations.csproj.AssemblyReference.cache
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\obj\Debug\net5.0\Calculations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\obj\Debug\net5.0\Calculations.AssemblyInfoInputs.cache
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\obj\Debug\net5.0\Calculations.AssemblyInfo.cs
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\obj\Debug\net5.0\Calculations.csproj.CoreCompileInputs.cache
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\obj\Debug\net5.0\Calculations.dll
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\obj\Debug\net5.0\ref\Calculations.dll
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\obj\Debug\net5.0\Calculations.pdb
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\obj\Debug\net5.0\Calculations.genruntimeconfig.cache
+C:\Users\owner\Documents\KennyProjects\Calculations\Calculations\bin\Debug\net5.0\ref\Calculations.dll

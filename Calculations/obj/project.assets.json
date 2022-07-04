@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations\\Calculations.csproj",
-      "projectName": "Calculations",
-      "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations\\Calculations.csproj",
+      "projectUniqueName": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations\\Unit_Test.Applications.csproj",
+      "projectName": "Unit_Test.Applications",
+      "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations\\Unit_Test.Applications.csproj",
       "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations\\obj\\",
       "projectStyle": "PackageReference",

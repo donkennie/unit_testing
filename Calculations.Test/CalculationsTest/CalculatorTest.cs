@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Unit_Test.Applications.Calculations;
 using Xunit;
 
-namespace Calculations.Test
+namespace Unit_Test.Tests.Calculations.Test
 {
     public class CalculatorTest
     {

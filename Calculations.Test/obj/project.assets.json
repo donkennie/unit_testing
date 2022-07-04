@@ -1677,14 +1677,14 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "Calculations/1.0.0": {
+      "Unit_Test.Applications/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Calculations.dll": {}
+          "bin/placeholder/Unit_Test.Applications.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Calculations.dll": {}
+          "bin/placeholder/Unit_Test.Applications.dll": {}
         }
       }
     }
@@ -6004,16 +6004,16 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Calculations/1.0.0": {
+    "Unit_Test.Applications/1.0.0": {
       "type": "project",
-      "path": "../Calculations/Calculations.csproj",
-      "msbuildProject": "../Calculations/Calculations.csproj"
+      "path": "../Calculations/Unit_Test.Applications.csproj",
+      "msbuildProject": "../Calculations/Unit_Test.Applications.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Calculations >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.2.0",
+      "Unit_Test.Applications >= 1.0.0",
       "xunit >= 2.4.1",
       "xunit.runner.console >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -6025,9 +6025,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations.Test\\Calculations.Test.csproj",
-      "projectName": "Calculations.Test",
-      "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations.Test\\Calculations.Test.csproj",
+      "projectUniqueName": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations.Test\\Unit_Test.Tests.csproj",
+      "projectName": "Unit_Test.Tests",
+      "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations.Test\\Unit_Test.Tests.csproj",
       "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations.Test\\obj\\",
       "projectStyle": "PackageReference",
@@ -6046,8 +6046,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations\\Calculations.csproj": {
-              "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations\\Calculations.csproj"
+            "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations\\Unit_Test.Applications.csproj": {
+              "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations\\Unit_Test.Applications.csproj"
             }
           }
         }

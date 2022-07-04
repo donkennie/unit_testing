@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o7OP2gzudijSy9Uz+JTtvRHGcLNr78DfZ2h40INxgeN4OUKHi6RcRznvm734r/E4dw816TYoRojO/D2Cxg2mUQ==",
+  "dgSpecHash": "OsAvP0Xe4ew0PwlSc6kbStScK7qXIezEUZJBLkLOuSA3dsBEmq+c4lzzj1BUoEAQ+JmK5rvf29auZYZhg2pJCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations\\Calculations.csproj",
+  "projectFilePath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations\\Unit_Test.Applications.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

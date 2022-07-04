@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j72uaKSPErYHqTqinMQW/Z9N3LReQr8hOL+6vRwsy1JxWZP41L5bbj/ydO2+iBhqQwWwZ6Ely4CC4t3ErrJf5g==",
+  "dgSpecHash": "eCFLdDZzlQR37MWZ6zCRIwR9xpHKcJwldo/Ijq2DaRxGvLyKLfXd0Wb2PL9dGBfVSa6o6m7/gREFjaK5JUhMTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations.Test\\Calculations.Test.csproj",
+  "projectFilePath": "C:\\Users\\owner\\Documents\\KennyProjects\\Calculations\\Calculations.Test\\Unit_Test.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\owner\\.nuget\\packages\\microsoft.codecoverage\\17.2.0\\microsoft.codecoverage.17.2.0.nupkg.sha512",
     "C:\\Users\\owner\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

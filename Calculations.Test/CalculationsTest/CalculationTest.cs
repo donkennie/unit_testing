@@ -1,51 +1,95 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Unit_Test.Applications.Calculations;
 using Xunit;
+using Xunit.Abstractions;
 
 namespace Unit_Test.Tests.CalculationsTest
 {
-    public class CalculationTest
-    {
-        [Fact]
-        public void FiboDoesNotIncludeZero()
-        {
-            var calc = new Calculation();
 
-            Assert.All(calc.FiboNumbers, n => Assert.NotEqual(0, n));
+    public class CalculatorFixture
+    {
+        public Calculation Calc => new Calculation();
+    }
+
+
+
+    public class CalculationTest : IClassFixture<CalculatorFixture>
+    {
+
+        private readonly ITestOutputHelper _testOutputHelper;
+        private readonly CalculatorFixture _calculatorFixture;
+        private readonly MemoryStream memoryStream;
+
+        public CalculationTest(ITestOutputHelper testOutputHelper, CalculatorFixture calculatorFixture)
+        {
+            _testOutputHelper = testOutputHelper;
+            _calculatorFixture = calculatorFixture;
+            _testOutputHelper.WriteLine("Constructor");
+
+            memoryStream = new MemoryStream();
+        }
+
+
+        [Fact]
+        [Trait("Category", "Fibo")]
+        public void CheckFiboIsNotZero()
+        {
+            _testOutputHelper.WriteLine("CheckFiboIsNotZero");
+
+            var calc = _calculatorFixture.Calc;
+
+            Assert.DoesNotContain(0, calc.FiboNumbers);
+
+            // Assert.All(calc.FiboNumbers, n => Assert.NotEqual(0, n));
         }
 
         [Fact]
-        public void FiboIncludes13()
+        [Trait("Category", "Fibo")]
+        public void Check13Exist()
         {
-            var calc = new Calculation();
+            _testOutputHelper.WriteLine("Check13Exist");
+
+            var calc = _calculatorFixture.Calc;
 
             Assert.Contains(13, calc.FiboNumbers);
 
         }
 
         [Fact]
+        [Trait("Category", "Fibo")]
         public void FiboDoesNotInclude4()
         {
-            var calc = new Calculation();
+            var calc = _calculatorFixture.Calc;
 
             Assert.DoesNotContain(4, calc.FiboNumbers);
 
         }
 
         [Fact]
-        public void CheckCollections()
+        [Trait("Category", "Fibo")]
+        public void CheckFiboNumbers()
         {
-            var expectedCollection = new List<int> { 1, 1, 2, 3, 5, 8, 13 };
+            _testOutputHelper.WriteLine("CheckFiboNumbers.   Test starting at {0}",DateTime.Now);
 
-            var calc = new Calculation();
+            var allFiboNumbers = new List<int> { 1, 1, 2, 3, 5, 8, 13 };
 
-            Assert.Equal(expectedCollection, calc.FiboNumbers);
+            _testOutputHelper.WriteLine("Creating an instance of calculator class...");
+
+            var calc = _calculatorFixture.Calc;
+
+            _testOutputHelper.WriteLine("Asserting...");
+
+            Assert.Equal(allFiboNumbers, calc.FiboNumbers);
+
+            _testOutputHelper.WriteLine("End...");
 
         }
 
-        }
+
+    }
 }

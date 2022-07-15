@@ -22,16 +22,16 @@ namespace Unit_Test.Tests.CalculationsTest
     {
 
         private readonly ITestOutputHelper _testOutputHelper;
-        private readonly CalculatorFixture _calculatorFixture;
-        private readonly MemoryStream memoryStream;
+      //  private readonly CalculatorFixture _calculatorFixture;
+       // private readonly MemoryStream memoryStream;
 
-        public CalculationTest(ITestOutputHelper testOutputHelper, CalculatorFixture calculatorFixture)
+        public CalculationTest(ITestOutputHelper testOutputHelper)//, CalculatorFixture calculatorFixture)
         {
             _testOutputHelper = testOutputHelper;
-            _calculatorFixture = calculatorFixture;
-            _testOutputHelper.WriteLine("Constructor");
+          //  _calculatorFixture = calculatorFixture;
+          //  _testOutputHelper.WriteLine("Constructor");
 
-            memoryStream = new MemoryStream();
+          //  memoryStream = new MemoryStream();
         }
 
 
@@ -41,7 +41,7 @@ namespace Unit_Test.Tests.CalculationsTest
         {
             _testOutputHelper.WriteLine("CheckFiboIsNotZero");
 
-            var calc = _calculatorFixture.Calc;
+            var calc = new Calculation();
 
             Assert.DoesNotContain(0, calc.FiboNumbers);
 
@@ -54,7 +54,7 @@ namespace Unit_Test.Tests.CalculationsTest
         {
             _testOutputHelper.WriteLine("Check13Exist");
 
-            var calc = _calculatorFixture.Calc;
+            var calc = new Calculation();
 
             Assert.Contains(13, calc.FiboNumbers);
 
@@ -64,7 +64,7 @@ namespace Unit_Test.Tests.CalculationsTest
         [Trait("Category", "Fibo")]
         public void FiboDoesNotInclude4()
         {
-            var calc = _calculatorFixture.Calc;
+            var calc = new Calculation();
 
             Assert.DoesNotContain(4, calc.FiboNumbers);
 
@@ -80,7 +80,7 @@ namespace Unit_Test.Tests.CalculationsTest
 
             _testOutputHelper.WriteLine("Creating an instance of calculator class...");
 
-            var calc = _calculatorFixture.Calc;
+            var calc = new Calculation();
 
             _testOutputHelper.WriteLine("Asserting...");
 
